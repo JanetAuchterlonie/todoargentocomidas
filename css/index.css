@@ -1,0 +1,14 @@
+header {
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 250%;
+    margin: 0;
+    padding: 0;
+    color: rgb(76, 16, 78);
+    animation: move 3s ease-in-out;}
+
+    @keyframes move {
+        0% { transform: translate( -10%); } 
+        50% { text-shadow: 0 30px 10px;}
+        100% { transform: translate( 20%,0
+            );}
+    }
